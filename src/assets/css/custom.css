@@ -1,0 +1,11 @@
+.pd-20 {
+    padding: 20px;
+}
+
+.card-blue{
+    /* box-sizing: initial; */
+    border: 1px solid black;
+    height: 100px;
+    background-color: #0866C6 !important;
+    color: white;
+}

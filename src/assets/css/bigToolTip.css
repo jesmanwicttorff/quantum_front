@@ -1,0 +1,21 @@
+ #informacion{
+    position: absolute;
+    /* top: -10px; */
+    /* width: 80%; */
+    /* background-color: hsl(214, 9%, 85%); */
+    /* background-color: #fff; */
+    /* border-radius: 5px; */
+    /* padding: 20px; */
+    /* margin-left: 4%; */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out 0s;
+    -moz-transition: opacity 0.5s ease-in-out 0s;
+  }
+
+  #ayuda:hover ~ #informacion{
+      width: 30%;
+      display: block;      
+      opacity: 1;
+      z-index: 10;
+      box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
